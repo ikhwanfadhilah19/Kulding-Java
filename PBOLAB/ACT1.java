@@ -5,10 +5,10 @@ package PBOLAB;
 import java.util.Scanner;
 
 class LPKubus{
-    int sisi = 6;
+    int sisi;
 
-    public LPKubus(int sisi){
-       this.sisi = sisi;
+    public LPKubus(int sisikubus){
+       this.sisi = sisikubus;
     }
     
     int luas(int sisi) {
@@ -32,7 +32,7 @@ class LPBalok{
     }
 }
 
-public class LUASKB {
+public class ACT1 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
